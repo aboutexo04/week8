@@ -2,13 +2,13 @@ import { useState } from "react";
 
 const steps = [
   { 
-    title: "Week 7 - Pingpong Star Catch Game",
-    description: "Today, we'll make a pingpong star catch game!",
+    title: "Week 8 - Coud Magic Game",
+    description: "Today, we'll make Cloud magic game!",
     image: "/images/first.png"
   },
   {
     title: "Key programming concepts",
-    description: "Today, we'll cover nested loops, clone, and OR operator.",
+    description: "Today, we'll cover variables, list(storage), and initialisation.",
     image: "/images/title-page.png"
   },
   {
@@ -17,9 +17,9 @@ const steps = [
     image: "/images/seating-chart.png"
   },
   {
-    title: "Step 1: Open Scratch and remix today's start project(week7)",
-    description: "Please share the start file I provided at the studio Week7. My Stuff -> My Studio -> Week7 -> Start File",
-    image: "/images/step1.png"
+    title: "Step 1: Open Scratch and remix today's start project(week8)",
+    description: "Please share the start file I provided at the studio Week8. My Stuff -> My Studio -> Week8 -> Start File",
+    
   },
   {
     title: "Step 2: Check the rule of the game",
@@ -27,19 +27,24 @@ const steps = [
     image: "/images/step2.png"
   },
   {
-    title: "Step 3: Let's start coding with the ball sprite",
-    description: "The Ball waits until the space key is pressed, then starts moving in a random direction. It keeps moving and bounces off the screen edges. When it touches the Paddle or a Star, it bounces back and plays a 'Boing' sound.",
-    image: "/images/ball.png" 
+    title: "Step 3: Let's start coding with the cat sprite",
+    description:"The can sprite is moving towards the mouse pointer. If it touches the dog, you loses 3 points. It has score and timer function.",
+    image: "/images/cat.webp" 
   },
   {
-    title: "Step 4: Let's code for the star sprite",
-    description:"The Star sprite starts hidden and creates 30 colorful clones arranged in a grid. Each clone appears with a random color effect and waits to be touched by the Ball. When the Ball touches a Star, the Star disappears and the score increases by 1.",
-    image: "/images/star-1.png"
+    title: "Step 4: Let's code for the food sprite",
+    description:"It randomly appears on the screen. When the cat touches the food, the food disappears and the score increases by 1. If the costume is syrup, it will be added to the storage.",
+    image: "/images/food.webp"
   },
   {
-    title: "Step 5: Test your game and share to the studio week7",
-    description: "Dont forget to add your project to the studio week7.",
-    image: "/images/step5.png"
+    title: "Step 5: Let's code for the cloud sprite",
+    description:"The cloud is mostly hidden. When there's a syrup in the storage, and you press the space key, the cloud will appear and the syrup will be removed from the storage.",
+    image: "/images/cloud.png"
+  },
+  {
+    title: "Step 6: Test your game and share to the studio week8",
+    description: "Dont forget to add your project to the studio week8.",
+    image: "/images/step6.png"
   },
   
 ];
