@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/week7_new/',
+  base: 'https://aboutexo04.github.io/week8/',
   plugins: [react()]
 })
